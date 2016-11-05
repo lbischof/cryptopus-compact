@@ -1,9 +1,3 @@
-#custom .form-group.search h1 {
-    display: none;
-}
-#custom .form-group.search input {
-    margin: 0;
-}
 #custom .container {
     padding-left: 0;
     padding-right: 0;
@@ -11,13 +5,8 @@
     max-width: 970px;
 }
 #custom input.search-input {
+    margin: 0;
     width: 100%;
-}
-#custom br {
-    display: none;
-}
-#custom .nav-tabs {
-    display: none;
 }
 #custom .result-list {
     background: none;
@@ -35,7 +24,6 @@
     float: none;
     margin: -40px 0 0 auto;
 }
-
 #custom .result-description {
     float: none;
     width: auto;
@@ -45,12 +33,6 @@
 }
 #custom .result-description h1 {
     margin: 0;
-}
-#custom .result-description span {
-    display: none;
-}
-#custom .clip_button {
-    display: none;
 }
 #custom .result-username, #custom .result-password {
     width: 50%;
@@ -66,9 +48,13 @@
 #custom .password-hidden {
     color: #eee;
 }
-#custom .password-show {
-    display: none;
-}
-#custom .footer {
+#custom .footer,
+#custom .password-show,
+#custom .password-link,
+#custom .result-description span,
+#custom .clip_button,
+#custom br,
+#custom .nav-tabs,
+#custom .form-group.search h1 {
     display: none;
 }
