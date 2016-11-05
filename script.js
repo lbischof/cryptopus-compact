@@ -1,1 +1,1 @@
-document.body.id = 'custom'
+document.documentElement.id = 'custom'
