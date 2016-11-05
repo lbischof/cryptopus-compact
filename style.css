@@ -58,6 +58,9 @@
     width: 100%;
     padding: 6px 6px;
 }
+#custom .password-hidden {
+    color: #eee;
+}
 #custom .password-show {
     display: none;
 }
