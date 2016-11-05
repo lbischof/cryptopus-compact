@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Cryptopus Compact",
+  "version": "0.0.1",
+  "description": "Enhancements for Cryptopus",
+
+  "content_scripts": [{
+    "css": ["style.css"],
+    "js": ["script.js"],
+    "matches": ["https://cryptopus.puzzle.ch/*"]
+  }]
+
+}

@@ -1,0 +1,66 @@
+#custom .form-group.search h1 {
+    display: none;
+}
+#custom .form-group.search input {
+    margin: 0;
+}
+#custom .container {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    max-width: 970px;
+}
+#custom input.search-input {
+    width: 100%;
+}
+#custom br {
+    display: none;
+}
+#custom .nav-tabs {
+    display: none;
+}
+#custom .result-list {
+    background: none;
+    box-shadow: none;
+}
+#custom .result-list li {
+    min-height: 0;
+    background: none;
+    border-bottom: 1px solid #e5e5e5;
+}
+#custom .result-action {
+    max-width: 400px;
+    width: 100%;
+    float: none;
+    margin: -40px 0 0 auto;
+}
+
+#custom .result-description {
+    float: none;
+    width: auto;
+    display: inline-block;
+}
+#custom .result-description h1 {
+    margin: 0;
+}
+#custom .result-description span {
+    display: none;
+}
+#custom .clip_button {
+    display: none;
+}
+#custom .result-username, #custom .result-password {
+    width: calc(50% - 15px);
+    display: inline-block;
+    top: 0;
+}
+#custom .result-username input, #custom .result-password input {
+    width: 100%;
+    padding: 6px 6px;
+}
+#custom .password-show {
+    display: none;
+}
+#custom .footer {
+    display: none;
+}
