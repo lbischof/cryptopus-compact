@@ -1,12 +1,33 @@
 #custom .container {
     padding-left: 0;
     padding-right: 0;
+    margin-top: 0;
     width: 100%;
     max-width: 970px;
 }
+#custom nav {
+    position: absolute;
+}
+#custom nav .container {
+    padding: 0 15px;
+}
+#custom .search {
+    margin: 0 13px;
+}
 #custom input.search-input {
-    margin: 0;
+    margin: 5em 0 0 0;
     width: 100%;
+}
+#custom input, #custom input:focus {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+#custom input:focus {
+    border: 1px solid #999;
+}
+#custom ::selection {
+    color: white;
+    background: #3FA8E0;
 }
 #custom .result-list {
     background: none;
@@ -47,6 +68,9 @@
 }
 #custom .password-hidden {
     color: #eee;
+}
+#custom a:hover {
+    text-decoration: none;
 }
 #custom .footer,
 #custom .password-show,
