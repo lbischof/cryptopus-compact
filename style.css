@@ -1,11 +1,10 @@
 #custom .container {
     padding-left: 0;
     padding-right: 0;
-    margin-top: 0;
     width: 100%;
     max-width: 970px;
 }
-#custom nav {
+#custom nav, #custom .bread-container {
     position: absolute;
 }
 #custom nav .container {
@@ -15,7 +14,8 @@
     margin: 0 13px;
 }
 #custom input.search-input {
-    margin: 5em 0 0 0;
+    margin: 0;
+    margin-top: -30px;
     width: 100%;
 }
 #custom input, #custom input:focus {
@@ -34,7 +34,7 @@
     box-shadow: none;
 }
 #custom .result-list li {
-    min-height: 0;
+    min-height: 61px !important;
     background: none;
     border-bottom: 1px solid #e5e5e5;
 }
@@ -42,18 +42,27 @@
     font-size: 0;
     max-width: 400px;
     width: 100%;
+    height: auto;
     float: none;
     margin: -40px 0 0 auto;
 }
+#custom .result-description .team-group {
+    float: right;
+    color: #888;
+}
 #custom .result-description {
     float: none;
-    width: auto;
+    width: 100%;
     display: inline-block;
     position: relative;
     top: 4px;
 }
 #custom .result-description h1 {
     margin: 0;
+}
+#custom .result-description h4 {
+    font-size: 1.5em;
+    color: #2988bc;
 }
 #custom .result-username, #custom .result-password {
     width: 50%;
@@ -76,6 +85,7 @@
 #custom .password-show,
 #custom .password-link,
 #custom .result-description span,
+#custom .result-description .result-type-icon,
 #custom .clip_button,
 #custom br,
 #custom .nav-tabs,
