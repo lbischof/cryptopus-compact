@@ -1,5 +1,8 @@
 # Cryptopus Compact
 
+https://gitlab.com/lbischof/cryptopus-compact
+![Moved to GitLab](https://i.imgur.com/wGgvnPq.png)
+
 This is a Chromium extension for [Cryptopus](https://github.com/puzzle/cryptopus).
 
 ## Usage
